@@ -22,6 +22,8 @@ Rscript scripts/update_sidra_6318.R
 
 - `SIDRA_DATA_URL`: URL da API de valores. Ajuste filtros usando os descritores
   da tabela 6318: https://apisidra.ibge.gov.br/DescritoresTabela/t/6318
+- `SIDRA_REGION_NAME`: texto da região usado para filtrar e preencher a coluna Unidade (padrão: `Brasil`)
+- `SIDRA_DATA_START_MARKER`: texto usado para localizar a primeira linha de dados na planilha (padrão: `Brasil`)
 - `SIDRA_WORKBOOK`: caminho do arquivo Excel (padrão: `Suporte_IE_PnadC_Mensal.xlsx`)
 - `SIDRA_SHEET`: nome da aba (padrão: `Tabela`)
 - `SIDRA_OUTPUT_CSV`: caminho do CSV de saída (padrão: `sidra_6318_output.csv`)
